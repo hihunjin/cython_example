@@ -9,7 +9,7 @@ python main.py
 2. cythonize
 
 ```python
-python setup.py build_ext --**inplace**
+python setup.py build_ext --inplace
 ```
 
 3. Run test again with ``.so``
