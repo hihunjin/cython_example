@@ -56,5 +56,6 @@ for file_path in file_list:
         os.remove(file_path)
 print(os.system(command))
 
+# rmtree(glob.glob("__pycache__")[0])
 move(build_dir, source_dir)
 print(os.system(command))
